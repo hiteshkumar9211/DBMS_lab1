@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Information</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light background */
+            font-family: Arial, sans-serif; /* Readable font */
+            color: #333; /* Font color */
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #007acc; /* Heading color */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007acc; /* Table header color */
+            color: white;
+        }
+        a {
+            color: #007acc; /* Link color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Course Information</h1>
+    
+    <p>Welcome to your course information page. Here you will find details about your Semester I courses, including descriptions and links to the syllabus where available.</p>
+    
+    <h2>Offered Elective Courses</h2>
+    <form>
+        <label><input type="checkbox" name="options" value="">Deep Learning</label><br>
+        <label><input type="checkbox" name="options" value=""> Speech Processing</label><br>
+        <label><input type="checkbox" name="options" value=""> Applied Stats</label><br>
+
+        <h3>Choose Your Study Mode</h3>
+        <label><input type="radio" name="mode" value="Online"> Online</label><br>
+        <label><input type="radio" name="mode" value="Offline"> Offline</label><br>
+
+        <h3>Select Your Major</h3>
+        <select name="major">
+            <option value="Computer Science">Computer Science</option>
+            <option value=" Electrical Engineering">Electrical Engineering</option>
+            <option value="Mathematics">Mathematics</option>
+        </select>
+    </form>
+
+    <h2>Course List for Semester I</h2>
+    <table>
+        <tr>
+            <th>Course No.</th>
+            <th>Course Name</th>
+            <th>LTPC</th>
+            <th>Syllabus</th>
+        </tr>
+        <tr>
+            <td>MA-589</td>
+            <td>Statistical Foundation for Data Science.</td>
+            <td>6-0-0</td>
+            <td><a href="https://www.example.com/syllabus_cs101.pdf">Syllabus</a></td>
+        </tr>
+        <tr>
+            <td>MA-580H</td>
+            <td>Matrix Computatons </td>
+            <td>3-0-0</td>
+            <td><a href="https://www.example.com/syllabus_math101.pdf">Syllabus</a></td>
+        </tr>
+        <tr>
+            <td>MA-579H</td>
+            <td>Scientific Computing</td>
+            <td>3-0-0</td>
+            <td><a href="https://www.example.com/syllabus_eng101.pdf">Syllabus</a></td>
+        </tr>
+        <tr></tr>
+            <td>DA-5111H</td>
+            <td>Scientific Computing</td>
+            <td>3-0-0</td>
+            <td><a href="https://www.example.com/syllabus_eng101.pdf">Syllabus</a></td>
+        </tr>
+        <tr></tr>
+            <td>DA-512H</td>
+            <td>Scientific Computing</td>
+            <td>3-0-0</td>
+            <td><a href="https://www.example.com/syllabus_eng101.pdf">Syllabus</a></td>
+        </tr>
+        <tr></tr>
+            <td>MA-581</td>
+            <td>Numerical Computaton Lab</td>
+            <td>3-0-0</td>
+            <td><a href="https://www.example.com/syllabus_eng101.pdf">Syllabus</a></td>
+        </tr>
+        <tr></tr>
+            <td>DA-513</td>
+            <td>Data Structures and Database Lab</td>
+            <td>3-0-0</td>
+            <td><a href="https://www.example.com/syllabus_eng101.pdf">Syllabus</a></td>
+        </tr>
+    </table>
+
+    <h2>Course Website</h2>
+    <p>For more information, visit the <a href="https://www.coursewebsite.com" target="_blank">Course Website</a>.</p>
+
+    <h2>Image Section</h2>
+    <img src="Untitled.png" alt="Placeholder Image" style="display: block; margin: 0 auto;">
+</body>
+</html>
